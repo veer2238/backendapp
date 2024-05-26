@@ -6,7 +6,7 @@ app.use('/files', express.static(path.join(__dirname, 'files')));
 
 
 app.get('/html',(req,res) =>{
-    res.send('hi')
+    res.send('hid')
 })
 
 
